@@ -8,8 +8,8 @@ export const AppRoutes = () => {
   return (
     <HashRouter>
       <switch>
-        <Route exact path="/" component={Index} />
-        <Route exact path="/home" component={Home} />
+        <Route path="/" component={Index} />
+        <Route path="/home" component={Home} />
         <Route path="/*" component={NotFound} />
       </switch>
     </HashRouter>
